@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CuandoVasAMorir</string>
+
+    <string name="intro">Calcula la data de la teva mort!</string>
+
+    <string name="nombre">Nom:</string>
+    <string name="fechaNac">Data de naixement:</string>
+    <string name="sexo">Sexe:</string>
+    <string name="LugarNac">Lloc de naixement:</string>
+    <string name="comprueba">Comprova</string>
+
+    <string-array name="sexo">
+        <item>Home</item>
+        <item>Dona</item>
+    </string-array>
+
+
+
+    <string-array name="muertes">
+        <item>El peix globus que vas demanar per menjar en aquell restaurant no estava net, et van enverinar!!</item>
+        <item>Un dia vas a un llac a veure ànecs, quan li dones de menjar a un et mossega i et passa la grip PluriAntropoGatica, 2 dies vas durar.</item>
+        <item>Vas ensopegar amb el cable i vas caure de tal manera que el cap et va donar una volta. Ara ets utilitzat un Ventríluoc.</item>
+        <item>Vas deixar-te el gas del taulell obert i ... PUM, a la lapida diu que vas ser una persona explosiva, juntament amb els teus veïns.</item>
+        <item>Just quan anaves a treballar et cau un meteorit. Lamento dir-te que no et va atorga poders.</item>
+    </string-array>
+</resources>
