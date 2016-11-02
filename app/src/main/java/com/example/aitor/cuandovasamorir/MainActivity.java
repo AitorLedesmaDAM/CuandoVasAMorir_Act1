@@ -43,6 +43,7 @@ public class MainActivity extends Activity implements OnClickListener, DatePicke
         Calendar newCalendar = Calendar.getInstance();
         fromDatePickerDialog = new DatePickerDialog(this, this, newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
 
+            /* Inicializamos el boton y le añadimos el listener */
         Button btnCalcular = (Button) findViewById(R.id.btnComprueba);
         btnCalcular.setOnClickListener(this);
     }
@@ -57,7 +58,9 @@ public class MainActivity extends Activity implements OnClickListener, DatePicke
         }else {
             Intent intent = new Intent(this, ResultActivity.class);
 
+             /* Inicializamos los EditText y comprobamos que estan llenos, si lo estan pasamos a ResultActivity y si no, pedimos que se llenen */
             if (view.getId() == R.id.btnComprueba) {
+
                 EditText etNombre = (EditText) findViewById(R.id.etNombre);
                 EditText etLugarNac = (EditText) findViewById(R.id.etLugarNac);
                 EditText etFechaNac = (EditText) findViewById(R.id.fecha_nacimiento);
@@ -88,6 +91,7 @@ public class MainActivity extends Activity implements OnClickListener, DatePicke
         }
     }
 
+        /* Le damos formato al editText de fecha */
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
 
@@ -100,6 +104,7 @@ public class MainActivity extends Activity implements OnClickListener, DatePicke
 
     }
 
+        /* Muestra el resultado después de pulsar el botón */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 

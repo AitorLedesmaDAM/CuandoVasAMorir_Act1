@@ -8,13 +8,15 @@ import android.widget.TextView;
 
 public class ResultActivity extends AppCompatActivity {
 
-    Calcula calcula = new Calcula();
+        /* Creamos un objeto calcula */
+    Calcula calcula = new Calcula(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
+            /* Inicializamos los textViews que deben mostrarse */
         String nombre = getIntent().getStringExtra("nombre");
         TextView tvNombre = (TextView) findViewById(R.id.tvNombreResult);
         tvNombre.setText(nombre);
@@ -27,12 +29,12 @@ public class ResultActivity extends AppCompatActivity {
 
     }
 
-
+        /* Finaliza la activity */
     @Override
     public void finish() {
 
         Intent intent = new Intent();
-        TextView tvTexto = (TextView) findViewById(R.id.tvFechaResult);
+        TextView tvTexto = (TextView) findViewById(R.id.btnComprueba);
         intent.putExtra("comprobando", tvTexto.getText().toString());
         setResult(this.RESULT_OK, intent);
 

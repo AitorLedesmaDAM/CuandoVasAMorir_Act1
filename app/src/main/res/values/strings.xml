@@ -12,6 +12,8 @@
     <string name="LugarNac">Lugar de nacimiento:</string>
     <string name="comprueba">Comprueba</string>
 
+    <string name="fechaResult">Fecha de muerte:</string>
+
     <string-array name="sexo">
         <item>Hombre</item>
         <item>Mujer</item>
@@ -21,7 +23,7 @@
 
     <string-array name="muertes">
         <item>El pez globo que pediste para comer en aquel restaurante no estaba limpio, te envenenaron!!</item>
-        <item>Un dia vas a un lago a ver patos, cuando le das de comer a uno te muerde y te pasa la gripe PluriAntropoGatica, 2 dias duraste.</item>
+        <item>Un dia fuiste a un lago a ver patos, cuando le das de comer a uno te muerde y te pasa la gripe PluriAntropoGatica, 2 dias duraste.</item>
         <item>Te tropezaste con el cable y caiste de tal manera que la cabeza te dió una vuelta. Ahora te usa un Ventrílocuo.</item>
         <item>Te dejaste el gas de la encimera abierto y... PUM, en la lapida dice que eras una persona explosiva, junto con tus vecinos.</item>
         <item>Justo cuando ibas a trabajar te cae un meteorito. Lamento decirte que no te otorgó poderes.</item>
